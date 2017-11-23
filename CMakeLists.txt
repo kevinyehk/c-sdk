@@ -9,7 +9,7 @@ set (FUNCTION_LEVEL_LINKING OFF CACHE BOOL "Set to ON to place every function in
 file (GLOB_RECURSE MY_SOURCE_FILES qiniu/*.c b64/*.c cJSON/*.c)
 include_directories (qiniu b64 cJSON)
 
-### test1
+### test12
 ### Platform Settings
 
 set (MY_COMPILE_DEFINITIONS "")
